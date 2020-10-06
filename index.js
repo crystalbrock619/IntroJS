@@ -105,7 +105,7 @@ Use the hungryDog function and feeding requirements below to do the following:
   
   Feeding Requirements:
 
-  Adult Dogs 1 year and older 
+  ADult Dogs 1 year and older 
      up to 5 lbs - 5% of their body weight
      6 - 10 lbs - 4% of their body weight 
      11 - 15 lbs - 3% of their body weight 
