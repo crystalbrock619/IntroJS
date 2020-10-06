@@ -111,7 +111,7 @@ Use the hungryDog function and feeding requirements below to do the following:
      11 - 15 lbs - 3% of their body weight 
      > 15lbs - 2% of their body weight 
 
-  Puppies less than 1 year
+  Puupies less than 1 year
      2 - 4 months 10% of their body weight
      4 - 7 months 5% of their body weight 
      7 - 12 months 4% of their body weight
