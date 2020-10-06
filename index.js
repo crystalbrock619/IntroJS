@@ -33,12 +33,12 @@ Do the following:
 
    HINT: no function required
 */
-let x = 34;
-const y = 200;
-if (y>x){
-  x=x+y;
+let num1 = 34;
+const num2 = 200;
+if (num2>num1){
+  num1=num1+num2;
 }
-console.log(x);
+console.log(num1);
 
 
 
@@ -54,9 +54,9 @@ Do the following:
 
    HINT: look up the Number method
 */
-let x = "1999"
-let y = Number(x);
-console.log(y);
+let str = "1999"
+let strAsNum = Number(str);
+console.log(strAsNum);
 
 
 /*
@@ -68,9 +68,9 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(x,y){
+function multiply(num3,num4){
     /*add your code here*/
-    return(x*y);
+    return(num3*num4);
   }
 multiply(2,4)
 
@@ -172,11 +172,11 @@ function game(userchoice){
   }
   let compchoice = Math.round(Math.random()*3);
   if (userchoice === compchoice){
-    return("It's a tie!");
+    return("tie");
   }else if (userchoice === 1 && compchoice === 3 || userchoice === 2 && compchoice === 1 || userchoice === 3 && compchoice === 2){
-    return("You win");
+    return("win");
   }else if (compchoice === 1 && userchoice === 3 || compchoice === 2 && userchoice ===1 || compchoice === 3 && userchoice === 2){
-    return("You lose");
+    return("lose");
   };
 }
   
@@ -227,10 +227,9 @@ Using the annoyingSong function below do the following:
 
 function annoyingSong(bottles){
   /*add your code here*/
-  let x = bottles;
-  while(x>0){
-  console.log(x + " bottles of soda on the wall, " + x + " bottles of soda, take one down pass it around " + (x-1) + " bottles of soda on the wall!");
-  x--;
+  while(bottles>0){
+  console.log(bottles + " bottles of soda on the wall, " + bottles + " bottles of soda, take one down pass it around " + (bottles-1) + " bottles of soda on the wall!");
+  bottles--;
   }
 }
 
@@ -252,18 +251,17 @@ Using the grade function below do the following:
   
 function grade(score){
   /*add your code here*/
-  let x = score;
-  if(x<100 && x>=90){
-    return("You got an A");
-  }else if(x<90 && x>=80){
-    return("You got a B");
-  }else if(x<80 && x>=70){
-    return("You got a C");
-  }else if(x<70 && x>=60){
-    return("You got a D")
-  }else if(x<60){
-    return("Oh No! You got an F!");
-  }else if(x>100 || x<0){
+  if(score<100 && score>=90){
+    return("A");
+  }else if(score<90 && score>=80){
+    return("B");
+  }else if(score<80 && score>=70){
+    return("C");
+  }else if(score<70 && score>=60){
+    return("D")
+  }else if(score<60){
+    return("F");
+  }else if(score>100 || score<0){
     return("Invalid input - score must be between 0 and 100")
   }
 }
@@ -296,6 +294,7 @@ function vowelCounter(str){
   };
   return(vcount);
 }
+
 
 
 
